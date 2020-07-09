@@ -4,8 +4,8 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
 
-//import login.Login;
-//import login.Registration;
+import login.Login;
+import login.Registration;
 
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -132,10 +132,10 @@ public class Main implements ActionListener{
 
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		//if(e.getSource() == btnRegister)
-			//Registration.main(null);
-		//else
-			//Login.main(null);
+		if(e.getSource() == btnRegister)
+			Registration.main(null);
+		else
+			Login.main(null);
 		
 	}
 
