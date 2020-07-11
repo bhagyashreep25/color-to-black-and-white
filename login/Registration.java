@@ -1,7 +1,7 @@
 package login;
 import javax.swing.*;
 
-//import logic.Logic;
+import logic.Logic;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -124,7 +124,7 @@ int rs = ps.executeUpdate();
 x++;
 if (x > 0)  {
 JOptionPane.showMessageDialog(btn1, "Data Saved Successfully");
-//Logic.main(null);
+Logic.main(null);
 }
                 }
 catch (Exception ex) {

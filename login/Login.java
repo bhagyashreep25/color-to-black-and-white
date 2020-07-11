@@ -1,5 +1,5 @@
 package login;
-//import logic.Logic;
+import logic.Logic;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
@@ -111,7 +111,7 @@ public class Login implements ActionListener{
 			if(set.next())
 			{
 				JOptionPane.showMessageDialog(null, "Login Successful");
-				//Logic.main(null);
+				Logic.main(null);
 			}
 			else
 				JOptionPane.showMessageDialog(null, "Invalid Username or Password");
